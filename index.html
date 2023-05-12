@@ -109,7 +109,7 @@ function update(source) {
     var thisNode = d3.select(this);
     if (!d.children) {
         thisNode.append("a")
-            .attr("xlink:href", function(d) { return d.url; })
+            .attr("xlink:href", function(d) { return d.URL; })
             .append("text")
                 .attr("x", 8)
                 .attr("dy", 3)
